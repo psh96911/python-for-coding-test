@@ -10,6 +10,6 @@ while n>=k:
     n //= k
     count += 1
 
-count += (n%k-1)
+count += (n-1)
 
 print(count)
